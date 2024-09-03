@@ -1,0 +1,37 @@
+# Go-specific files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+/bin/
+/pkg/
+
+# Dependency directories (for example, vendored packages)
+vendor/
+
+# Go modules
+go.sum
+
+# Go test binary
+*.test
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# macOS-specific files
+.DS_Store
+
+# Linux-specific files
+*~
+
+# Configuration files
+*.toml
