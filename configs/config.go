@@ -1,6 +1,8 @@
 package configs
 
 import (
+	"fmt"
+
 	"github.com/spf13/viper"
 )
 
@@ -54,6 +56,7 @@ func Load() error {
 		Pass:     viper.GetString("database.pass"),
 		Database: viper.GetString("database.name"),
 	}
+	fmt.Println("🚀 ~ funcLoad ~ cfg:", cfg)
 
 	return nil
 }

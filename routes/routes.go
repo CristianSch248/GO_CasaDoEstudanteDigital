@@ -6,6 +6,7 @@ import (
 )
 
 func LoadRutes() *chi.Mux {
+
 	router := chi.NewRouter()
 
 	router.Use(middleware.Logger)
